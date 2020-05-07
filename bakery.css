@@ -1,0 +1,659 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page .column {
+    height: 100vh;
+}
+
+.column {
+   /* border: 1px solid black;*/
+    width: 95%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.logo {
+    height: 200px;
+    width: 300px;
+    margin-top: 8px;
+}
+
+#nav-menu {
+    display: flex;
+}
+
+#nav-menu a {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    padding: 40px 0px;
+    color: #572E1A;  
+    font-size: 16pt; 
+    font-family: 'Exo 2', sans-serif;
+}
+
+#nav-menu a:hover,
+#nav-menu a.active {
+    color: #ffb366;
+}
+
+.column h1 {
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 10px;
+    font-size: 60pt;
+    padding-top: calc(50vh - 300px);
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 10px;
+    border-bottom: 2px solid #572E1A;
+    color: #572E1A;
+}
+
+#home {
+    background-image: url("../images/home.png");
+    background-size: cover;
+}
+
+.column h2 {
+    text-align: center;
+    color: #00b300;
+    font-size: 40pt;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 20px ;
+}
+
+.offer-text {
+    text-align: center;
+    font-size: 18pt;
+    color: 	#572E1A;
+    margin-bottom: 50px;
+}
+
+.products-home {
+    display: flex;
+}
+
+.product-holder {
+    flex-grow: 1;
+    margin: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.small-title {
+    text-align: center;
+    font-size: 20pt;
+    margin-bottom: 70px;
+    color: #572E1A;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 3px;
+}
+
+.small-desc {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.product-view {
+    text-align: center;
+    text-decoration: none;
+    color: #39e600;
+    padding-left: 90px;
+}
+
+.product-view{
+    text-decoration: underline;
+}
+
+#products {
+    font-family: 'Exo 2', sans-serif;
+    background: url("../images/products-home.jpg");
+    background-size: cover;   
+}
+
+.jobs-home {
+    display: flex;
+}
+
+.job-box {
+  flex-grow: 1;
+}
+
+.job-box h3{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: #00b300;
+    font-size: 25pt;
+}
+
+.job-box p {
+    padding: 30px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    color: 	#ffffff;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.job-box a {
+    padding-left: 140px;
+    font-size: 16pt;
+    text-decoration: none;
+    color:#39e600;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.job-box a:hover{
+    text-decoration: underline;
+}
+
+.worker-image {
+    margin-top: 60px;
+}
+
+#jobs {
+    background-image: url("../images/work-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.square-holder {
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.number {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50pt;
+}
+
+.what-number {
+    text-align: center;
+    font-size: 20pt;
+    color: #39e600;
+}
+
+.square-holder > p {
+    text-align: center;
+    margin-top: 12px;
+    font-family:'Dancing Script', cursive;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+#about-us {
+    background-color: #572E1A;
+    height: 250px; 
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-holder {
+    flex-grow: 1;
+    position: relative;
+}
+
+.contact-box {
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    font-family: 'Exo 2', sans-serif;
+    color: #ffffff;
+    background-color: #572E1A;
+    padding: 20px;
+    border-radius: 5px;
+    padding-right: 48px;
+}
+
+.contact-box h3 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.mail > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.phone > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.address {
+    list-style-type:none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.mail {
+    list-style-type:none;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+.phone {
+    list-style-type:none;
+    margin-bottom: 30px;
+}
+
+.phone a:hover{
+    text-decoration: underline;
+}
+
+.mail > i {
+    padding-right: 15px;
+}
+
+.phone > i { 
+    padding-right: 15px;
+}
+
+.address { 
+    display: flex;
+}
+
+.address > i {
+    padding-right: 15px;
+}
+
+.map {
+    position: absolute;
+    left: 30px;
+    right: 50px;
+    top: 160px;
+    bottom: 50px;
+}
+
+#contact {
+    background-color: whitesmoke;
+}
+
+.map > iframe {
+    border-radius: 5px;
+}
+
+.footer-holder {
+    text-align: center;
+}
+
+.footer-text {
+  width: 500px;
+  height: 80px;
+  display: inline-block;
+  font-size: 21pt;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+#footer {
+    background-color: #572E1A;
+    font-family:'Dancing Script', cursive;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+/* Products page */
+
+#top-others {
+    height: 70vh;
+    background-image: url("../images/home.png");
+    background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.column-others {
+    width: 1000px;
+    margin: 0px auto;  
+}
+
+.column-others h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 10px;
+    border-bottom: 2px solid #572E1A;
+    color: #572E1A;
+    padding-bottom: 12px;
+    font-size: 60pt;
+}
+
+.product-list-holder {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.product-type {
+    flex-grow: 1;
+    text-align: center;
+    margin: 15px;
+    justify-content: space-between; 
+}
+
+.product-button-style {
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    font-size: 14pt;
+    background-color: white;
+    font-family: 'Exo 2', sans-serif;
+    border-color: #39e600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-button-style:hover{
+    color: white;
+    background-color: #39e600;
+}
+
+.pointer {
+    color: darkgreen;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
+}
+
+/* Breads  pies etc. */
+
+.whitesmoke-background {
+    background-color: whitesmoke;
+}
+
+.font {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.product-page-titles {
+    margin-block-start: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
+    color: #572E1A;
+}
+
+.picture-holder {
+    display: flex;
+}
+
+.picture-box {
+    flex-grow: 1;
+    text-align: center;
+    color: #572E1A;
+}
+
+.picture-positions {   
+ margin-right: 10px;
+ padding-bottom: 25px;
+}
+
+.picture-positions:nth-of-type(1) {
+  margin-left: 15px;
+}
+
+/*About us page */
+
+.about-us-content {
+    position: relative;
+}
+
+.about-image {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    max-width: 100%;
+}
+
+.about-paragraph {
+    position: absolute;
+    top: 630px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer-holder-1 {
+    text-align: center;
+}
+
+.footer-text-1 {
+  width: 500px;
+  height: 80px;
+  display: inline-block;
+  font-size: 21pt;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+#footer-about {
+    position: absolute;
+    top: 1450px;
+    right: 0px;
+    left: 0px;
+    background-color: #572E1A;
+    font-family:'Dancing Script', cursive;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+/* Job page */
+
+.picture-holder-1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.job-holder {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.job-desc {
+    flex-grow: 1;
+    width: 500px;
+}
+
+.job-name {
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    top: 80px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: rgb(43, 175, 43);
+}
+
+.job-about {
+    text-align: justify;
+}
+
+.form-holder {
+    display: flex;
+}
+
+.form-boxes {
+    flex-grow: 1;
+}
+
+.form-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.job-separator {
+width: 50%;
+height: 10px;
+background-color: rgb(43, 175, 43);
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-bottom: 70px;
+}
+
+.field-width {
+    width: 417px;
+}
+
+.job-submit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 40px;
+    color: rgb(43, 175, 43);
+    border: 2px solid rgb(28, 139, 28);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.job-submit:hover,
+.job-submit:active {
+    color: white;
+    background-color: rgb(28, 139, 28);
+    cursor: pointer;
+}
+
+.video {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+/* Contact page */
+
+#text-us {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.text-us-box {
+    width: 333px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16pt;
+}
+
+.send-us-mess {
+    font-size: 24pt;
+    font-weight: bold;
+    color: rgb(43, 175, 43);
+}
+
+.text-us-box > i {
+    margin-top: 30px;
+    font-size: 48pt;
+    color:#572E1A ;
+}
+
+.contact-box-holder {
+    display: flex;
+}
+
+.contact-numbers-and-forms {
+    display: flex;
+}
+
+.names-numbers {
+    flex-grow: 1;
+}
+
+.info-box {
+   margin: 20px;
+}
+
+.contact-numbers-and-forms-1 {
+    margin-left: 30px;
+}
+
+.field-width-contact {
+    width: 417px;
+}
+
+.field-width-contact-1 {
+    width: 204px;
+}
+
+.font-1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 12pt;
+}
+
+.resize {
+    resize: vertical; 
+    max-height: 200px;
+    min-height: 60px;
+}
+
+.info-box > a {
+    text-decoration: none;
+    color: rgb(43, 175, 43);
+}
+
+.info-box a:hover{
+    text-decoration: underline;
+}
+
+#contact-map {
+    margin-bottom: 50px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(24, 23, 23); 
+    border-radius: 8px; }
+
+::-webkit-scrollbar-thumb {
+     background: rgb(117, 80, 61); 
+     border-radius: 5px;
+    }
+
+::-webkit-scrollbar-thumb:hover {
+    background: #572E1A; 
+      }
+
+/* RESPONSIVE */
+
+@media screen and (max-width:999px) {
+#top-others {
+    width: 100%;
+}
+}
